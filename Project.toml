@@ -1,0 +1,13 @@
+name = "NeuralQS"
+uuid = "06b5ba65-0453-4a0a-b29a-18c9428b2cfb"
+authors = ["Clyde Lhui"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.6.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
